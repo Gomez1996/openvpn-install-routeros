@@ -286,7 +286,7 @@ dh dh.pem
 #tls-version-min 1.2
 #tls-cipher TLS-ECDHE-RSA-WITH-AES-128-GCM-SHA256
 auth SHA1
-server 10.6.0.0 255.255.240.0" > /etc/openvpn/server/server.conf
+server 10.8.0.0 255.255.240.0" > /etc/openvpn/server/server.conf
 	# IPv6
 	if [[ -z "$ip6" ]]; then
 		echo 'push "redirect-gateway def1 bypass-dhcp"' >> /etc/openvpn/server/server.conf
