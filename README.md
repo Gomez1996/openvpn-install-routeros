@@ -11,7 +11,7 @@ The original script, unchanged, is in the `openvpn-install.sh` file and was take
 First, get the script and make it executable:
 
 ```bash
-wget https://raw.githubusercontent.com/volstr/openvpn-install-routeros/main/openvpn-install-routeros.sh -O openvpn-install-routeros.sh
+wget https://raw.githubusercontent.com/gomez1996/openvpn-install-routeros/main/openvpn-install-routeros.sh -O openvpn-install-routeros.sh
 ```
 
 Then run it:
